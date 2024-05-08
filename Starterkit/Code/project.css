@@ -73,13 +73,35 @@ header {
   align-items: center;
   text-align: center;
   margin-top: 60px;
+  gap: 50px;
 }
-hr {
+.firsthr {
   margin-top: 120px;
   width: 30%;
 }
 .mainpart2 {
+  color: white;
   height: 250px;
-  display: row;
   text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.mainpart2 h1 {
+  padding-top: 50px;
+}
+.howwework {
+  position: absolute;
+  height: 250px;
+  right: 20px;
+}
+.end {
+  margin-top: 200px;
+  text-align: center;
+}
+.endpart1 {
+  margin-top: 20px;
+}
+.secondhr {
+  margin-top: 30px;
+  width: 80%;
 }
