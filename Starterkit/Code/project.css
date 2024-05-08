@@ -127,3 +127,7 @@ nav ul {
 nav h4 {
   color: var(--text-color);
 }
+nav a {
+  text-decoration: none;
+  color: hsl(270, 9%, 17%);
+}
