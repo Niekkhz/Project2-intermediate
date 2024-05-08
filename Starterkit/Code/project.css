@@ -77,22 +77,29 @@ header {
 }
 .mainpart2 {
   color: white;
-  height: 250px;
+  height: 300px;
   text-align: center;
   margin-right: 20px;
   margin-left: 20px;
 }
 .mainpart2 h1 {
-  padding-top: 50px;
+  padding-top: 80px;
+  z-index: 1;
+  position: relative;
 }
 .howwework {
   position: absolute;
-  height: 250px;
+  height: 300px;
   right: 20px;
+  z-index: 0;
 }
 .end {
   margin-top: 200px;
   text-align: center;
+}
+.end * {
+  position: relative;
+  z-index: 1;
 }
 .endpart1 {
   margin-top: 20px;
@@ -105,6 +112,7 @@ header {
   position: absolute;
   left: 0;
   top: 2550px;
+  z-index: 0 !important;
 }
 nav {
   text-align: center;
