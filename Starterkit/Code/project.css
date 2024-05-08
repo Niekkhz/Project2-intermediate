@@ -1,0 +1,85 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 400, 700;
+}
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+:root {
+  --main-brand-color: hsl(256, 26%, 20%);
+  --primary-color: hsl(216, 30%, 68%);
+}
+header {
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.introleft {
+  position: absolute;
+  top: 523px;
+  left: 0;
+}
+.introright {
+  position: absolute;
+  right: 0;
+  top: 800px;
+}
+.mainpart {
+  background-color: var(--main-brand-color);
+  color: white;
+  height: 375px;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainpart h1 {
+  margin-top: 0px;
+}
+.mainpart button {
+  background-color: var(--main-brand-color);
+  color: white;
+  border-color: white;
+  padding: 5px 20px;
+}
+/* .picture1 {
+  height: 375px;
+  width: 100%;
+  object-fit: cover;
+}
+.picture1 img {
+  width: 100%;
+  height: 100%;
+} */
+.picture1 {
+  margin-bottom: -4px;
+}
+.mainpart2 {
+  background-color: var(--main-brand-color);
+}
+.mainpart2 button {
+  background-color: var(--main-brand-color);
+  color: white;
+  border-color: white;
+}
+.fatherbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+}
+hr {
+  margin-top: 120px;
+  width: 30%;
+}
+.mainpart2 {
+  height: 250px;
+  display: row;
+  text-align: center;
+}
