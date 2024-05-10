@@ -134,6 +134,9 @@ nav a {
   text-decoration: none;
   color: hsl(270, 9%, 17%);
 }
+.secondhr {
+  display: none;
+}
 @media (min-width: 1440px) {
   .picture1 {
     display: flex;
@@ -194,5 +197,30 @@ nav a {
   }
   .howwework {
     margin-right: 130px;
+  }
+  .endpart1 svg {
+    left: 510px;
+  }
+  .end img {
+    right: 510px;
+    bottom: -45px;
+  }
+  .footer {
+    top: 2000px;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .secondhr {
+    display: inline;
+    width: 10%;
+    margin-left: 160px;
+  }
+  nav li {
+    margin-bottom: 10px;
   }
 }
